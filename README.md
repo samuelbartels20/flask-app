@@ -24,7 +24,10 @@ kubectl apply -f service.yaml
 ## result
 
 Flask app running on Kubernetes
-![](./image/)
+![](./image/image1.png)
+
+Flask app running on localhost port 5000
+![](./image/image2)
 
 
 
