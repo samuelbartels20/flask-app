@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-deployment
+  labels:
+    myapp: pyapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      myapp: pyapp
+  template:
+    metadata:
+      labels:
+        myapp: pyapp
+    spec:
+      containers:
+      - name: python-container
+        image: samuelbartels/hello-python:v2
+        ports:
+        - containerPort: 5001
