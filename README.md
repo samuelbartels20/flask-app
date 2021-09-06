@@ -27,7 +27,7 @@ Flask app running on Kubernetes
 ![](./image/image1.png)
 
 Flask app running on localhost port 5000
-![](./image/image2)
+![](./image/image2.png)
 
 
 
