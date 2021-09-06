@@ -21,6 +21,11 @@ kubectl apply -f service.yaml
 - Define a service (service.yaml) for your application
 - The application should be accessible via localhost and display a text of your choice in a Browser
 
+## result
+
+Flask app running on Kubernetes
+![](./image/)
+
 
 
 
